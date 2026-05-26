@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/db.changelog-1.0-initial.sql
+      relativeToChangelogFile: false
+  - include:
+      file: db/changelog/db.changelog-1.1-constraints.sql
+      relativeToChangelogFile: false

@@ -1,0 +1,30 @@
+spring:
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+  jackson:
+    date-format: yyyy-MM-dd
+  application:
+    name: renovaro
+  profiles:
+    active: local
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+#application:
+#  security:
+#    jwt:
+#      secret-key:
+#      expiration: 2592000000 # 30 days
+
+logging:
+  level:
+    root: info
+
+
