@@ -4,7 +4,7 @@ Design and development of a web-based platform providing renovation, maintenance
 
 ## Technologies
 
-Vue, TypeScript, Vite, Git, GitHub
+Java, Spring Boot, REST APIs, SQL, PostgreSQL, Git, GitHub
 
 ## License
 
